@@ -1,0 +1,39 @@
+.careers-position{
+  padding: 5vh;
+}
+.careers-offer{
+  background-color: #EAEFF3;
+}
+
+a:hover {
+ color: #ffaf36;
+}
+.inside-wrapper{
+  width: 920px;
+}
+.clients-logo-list{
+  display: inline-block;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border: 1px solid #E6E9EB;
+  padding: 20px;
+  margin-right: 5px;
+}
+
+.career-list-style ul {
+  list-style: none;
+}
+.career-list-style li {
+  margin-left: 17px;
+  position: relative;
+}
+.career-list-style li:after {
+  content: '\2714';
+  position: absolute;
+  top: -3px;
+  left: -15px;
+}
+.card-card-block{
+  border: none;
+}

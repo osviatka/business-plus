@@ -1,0 +1,32 @@
+
+
+.pyramids-layer{
+  position: relative;
+  &:before {
+    position: absolute;
+    z-index: -2;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 77.5px 101px 77.5px;
+    border-color: transparent transparent #36a8ff transparent;
+    content: "";
+    bottom: -152px;
+    right: 83px;
+  }
+  &:after {
+    position: absolute;
+    z-index: -1;
+    bottom: -152px;
+    right: 19px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 68px 70px 68px;
+    border-color: transparent transparent #ffaf36 transparent;
+  }
+}
+.collapsed{
+  transform: rotate(90deg);
+}

@@ -1,0 +1,25 @@
+
+
+
+$base-color: #ffffff;
+$accent-color: #ffaf36;
+$heading-color: #1c1c1c;
+$darken-color: #808080;
+$footer-color: #2a2b2c;
+
+.header-text{
+  color: #ffffff;
+  padding-top: 5px;
+}
+.about-views{
+  background-color:#EAEFF3;
+}
+.border-bottom-line{
+  border-bottom: 1px solid rgba(221, 228, 234, 18.15);
+}
+.nav-link-base{
+  color: #ffffff;
+}
+.sr-only{
+  $accent-color: #ffaf36;
+}

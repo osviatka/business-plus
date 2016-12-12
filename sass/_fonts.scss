@@ -1,0 +1,58 @@
+
+
+@font-face {
+  font-family: "Proxima Nova Regular";
+  src: url("../fonts/PNR.otf");
+}
+
+$fsize-xs: 13px;
+$fsize-sm: 14px;
+$fsize-md: 16px;
+$fsize-lg: 18px;
+$fsize-xl: 30px;
+
+$fweight-xs: 600;
+$fweight-sm: 700;
+$fweight-md: 800;
+
+.text-line-height-xs{
+  line-height: 24px;
+}
+.text-line-height-sm{
+  line-height: 28px;
+}
+.text-line-height-md{
+  line-height: 30px;
+}
+.text-line-height-lg{
+  line-height: 36px;
+}
+
+.text-content{
+  font: 400 14px "Open Sans";
+}
+.text-sm-raleway{
+  font: 400 $fsize-sm "Raleway";
+  color: #1c1c1c;
+  line-height: 28px;
+}
+.text-md-raleway{
+  font: 700 $fsize-md "Raleway";
+  color: #1c1c1c;
+  line-height: 24px;
+}
+.text-lg-raleway{
+  font: 900 $fsize-lg "Raleway";
+  color: #1c1c1c;
+}
+.text-xl-raleway{
+  font: 900 $fsize-xl "Raleway";
+  color: #1c1c1c;
+}
+.text-md-lora{
+  font: italic 800 $fsize-md "Lora";
+  color: #1c1c1c;
+  line-height: 30px;
+}
+
+

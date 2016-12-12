@@ -1,0 +1,25 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "buttons";
+@import "colors";
+@import "careers";
+@import "fonts";
+@import "footer";
+@import "forms";
+@import "header";
+@import "images";
+@import "indents";
+@import "section";
+@import "typography";
+@import "variables";
+
+
+.wrapper{
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 5vh 0;
+}
