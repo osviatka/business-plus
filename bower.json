@@ -1,0 +1,18 @@
+{
+  "name": "business-plus",
+  "homepage": "https://github.com/osviatka/business-plus",
+  "authors": [
+    "osviatka <svyatka@ukr.net>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
