@@ -8,9 +8,10 @@
 .navbar {
   background-color: rgba(255, 255, 255, 0);
 }
-.about-banner, .careers-banner{
+.blog-banner{
   position: relative;
   z-index: 50;
+  background: #000000;
   overflow: hidden;
   height: 395px;
   img {
@@ -19,6 +20,22 @@
     opacity: 0.4;
     min-height: 395px;
   }
+}
+.homepage-1-banner, .about-banner, .careers-banner, .contact-banner, .faq-banner{
+  position: relative;
+  z-index: 50;
+  overflow: hidden;
+  height: 395px;
+  background: gray;
+  img {
+    display: block;
+    width: 100%;
+    opacity: 0.4;
+    min-height: 395px;
+  }
+}
+.contact-banner{
+  min-height: 396px;
 }
 .header-logo-image{
   margin-top: -10px;

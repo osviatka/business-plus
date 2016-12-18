@@ -1,0 +1,83 @@
+
+.cb-text-area{
+  background: #FEF1DE;
+  padding: 5px;
+}
+.quote-style{
+  border-left: 3px solid #FFAF36;
+  -moz-border-radius: 5px;
+  position: relative; /* !!! */
+  padding: 5px;
+}
+.text-margin-left{
+  margin-left: 70px;
+}
+.admin-text-area{
+  font: 400 14px "Open Sans";
+  line-height: 24px;
+  color: #ffffff;
+  padding: 0px 115px 65px 20px;
+  text-align: left;
+}
+h5{
+  font: 700 16px "Raleway";
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+.text-content{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.text-margin{
+  margin: 0px 0px 30px 20px;
+}
+.text-margin-bottom{
+  margin-bottom: 30px;
+}
+.text-margin{
+  margin: 0px 0px 30px 20px;
+}
+.popup-left-corner {
+  background: #33A6FF;
+  -moz-border-radius: 5px;
+  position: relative; /* !!! */
+  padding: 5px;
+  margin-left: -75px;
+  text-align: center;
+}
+
+.popup-left-corner:before {
+  content: '';
+  border: 10px solid transparent;
+  border-right: 10px solid #33A6FF;
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  margin-top: -10px;
+}
+.header-bold{
+  font: 800 13px "Proxima Nova Regular";
+  text-transform: uppercase;
+  color: #1c1c1c;
+}
+.text-color{
+  font: 600 13px "Proxima Nova Regular";
+  color: #FFAF36;
+  text-transform: uppercase;
+}
+.s-icon{
+  border: 2px solid;
+  border-radius: 50%;
+  color: #FFAF36;
+  font-size: 20px;
+}
+.font-icon{
+  margin-top: 30px;
+}
+.send-comment{
+  background-color:#EAEFF3;
+}
+.heading{
+  padding: 80px 0 50px;;
+}

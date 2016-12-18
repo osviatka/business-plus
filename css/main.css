@@ -67,6 +67,141 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* line 3, ../sass/_blog.scss */
+.admin-image {
+  overflow: hidden;
+  border: 5px solid #fff;
+  border-radius: 130px;
+}
+
+/* line 10, ../sass/_blog.scss */
+.social li {
+  display: inline-block;
+}
+
+/* line 15, ../sass/_blog.scss */
+.content-blog .blog-one, .content-blog .blog-two, .content-blog .blog-three {
+  border-bottom: 1px solid #dde4ea;
+  margin-top: 50px;
+}
+
+/* line 2, ../sass/_blog-post.scss */
+.cb-text-area {
+  background: #FEF1DE;
+  padding: 5px;
+}
+
+/* line 6, ../sass/_blog-post.scss */
+.quote-style {
+  border-left: 3px solid #FFAF36;
+  -moz-border-radius: 5px;
+  position: relative;
+  /* !!! */
+  padding: 5px;
+}
+
+/* line 12, ../sass/_blog-post.scss */
+.text-margin-left {
+  margin-left: 70px;
+}
+
+/* line 15, ../sass/_blog-post.scss */
+.admin-text-area {
+  font: 400 14px "Open Sans";
+  line-height: 24px;
+  color: #ffffff;
+  padding: 0px 115px 65px 20px;
+  text-align: left;
+}
+
+/* line 22, ../sass/_blog-post.scss */
+h5 {
+  font: 700 16px "Raleway";
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+/* line 28, ../sass/_blog-post.scss */
+.text-content {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* line 32, ../sass/_blog-post.scss */
+.text-margin {
+  margin: 0px 0px 30px 20px;
+}
+
+/* line 35, ../sass/_blog-post.scss */
+.text-margin-bottom {
+  margin-bottom: 30px;
+}
+
+/* line 38, ../sass/_blog-post.scss */
+.text-margin {
+  margin: 0px 0px 30px 20px;
+}
+
+/* line 41, ../sass/_blog-post.scss */
+.popup-left-corner {
+  background: #33A6FF;
+  -moz-border-radius: 5px;
+  position: relative;
+  /* !!! */
+  padding: 5px;
+  margin-left: -75px;
+  text-align: center;
+}
+
+/* line 50, ../sass/_blog-post.scss */
+.popup-left-corner:before {
+  content: '';
+  border: 10px solid transparent;
+  border-right: 10px solid #33A6FF;
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  margin-top: -10px;
+}
+
+/* line 59, ../sass/_blog-post.scss */
+.header-bold {
+  font: 800 13px "Proxima Nova Regular";
+  text-transform: uppercase;
+  color: #1c1c1c;
+}
+
+/* line 64, ../sass/_blog-post.scss */
+.text-color {
+  font: 600 13px "Proxima Nova Regular";
+  color: #FFAF36;
+  text-transform: uppercase;
+}
+
+/* line 69, ../sass/_blog-post.scss */
+.s-icon {
+  border: 2px solid;
+  border-radius: 50%;
+  color: #FFAF36;
+  font-size: 20px;
+}
+
+/* line 75, ../sass/_blog-post.scss */
+.font-icon {
+  margin-top: 30px;
+}
+
+/* line 78, ../sass/_blog-post.scss */
+.send-comment {
+  background-color: #EAEFF3;
+}
+
+/* line 81, ../sass/_blog-post.scss */
+.heading {
+  padding: 80px 0 50px;
+}
+
 /* line 2, ../sass/_buttons.scss */
 .rm-link {
   border: 2px solid #FFAF36;
@@ -81,8 +216,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: transparent;
 }
 
+/*-------------------------------------about-us---------------------------------------*/
 /*-------------------------------------careeers---------------------------------------*/
-/* line 15, ../sass/_buttons.scss */
+/* line 18, ../sass/_buttons.scss */
 .career-rm-link {
   border: 2px solid #FFAF36;
   padding: 7px 20px;
@@ -90,36 +226,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font: 700 13px "Raleway";
 }
 
-/* line 21, ../sass/_buttons.scss */
+/* line 24, ../sass/_buttons.scss */
 .career-button-text-color {
   color: #1c1c1c;
   background-color: #FFAF36;
 }
 
-/* line 25, ../sass/_buttons.scss */
+/* line 28, ../sass/_buttons.scss */
 .color-bg {
   background-color: transparent;
-}
-
-/* line 10, ../sass/_colors.scss */
-.header-text {
-  color: #ffffff;
-  padding-top: 5px;
-}
-
-/* line 14, ../sass/_colors.scss */
-.about-views {
-  background-color: #EAEFF3;
-}
-
-/* line 17, ../sass/_colors.scss */
-.border-bottom-line {
-  border-bottom: 1px solid #dde4ea;
-}
-
-/* line 20, ../sass/_colors.scss */
-.nav-link-base {
-  color: #ffffff;
 }
 
 /* line 1, ../sass/_careers.scss */
@@ -177,68 +292,341 @@ a:hover {
   border: none;
 }
 
+/* line 2, ../sass/_carousel.scss */
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+  filter: none;
+}
+
+/* line 6, ../sass/_carousel.scss */
+.clients-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* line 10, ../sass/_carousel.scss */
+.clients-carousel li {
+  width: 318px;
+  margin: 0 23px;
+}
+/* line 13, ../sass/_carousel.scss */
+.clients-carousel li p {
+  line-height: 28px;
+}
+/* line 16, ../sass/_carousel.scss */
+.clients-carousel li .row {
+  margin-top: 50px;
+}
+
+/* borders
+.border-bottom-line{
+  border-bottom: 1px solid #dde4ea;
+  opacity: 0.15;
+}
+*/
+/* line 17, ../sass/_colors.scss */
+.base-color {
+  color: #FFFFFF;
+}
+
+/*-------------------------------------blog---------------------------------------*/
+/* line 22, ../sass/_colors.scss */
+.f-color {
+  border-radius: 50px;
+  border: 15px solid #496FA5;
+  color: #FFFFFF;
+  background-color: #496FA5;
+  margin: 5px 0px 15px 10px;
+}
+
+/* line 29, ../sass/_colors.scss */
+.t-color {
+  border-radius: 50px;
+  border: 15px solid #00BAEF;
+  color: #FFFFFF;
+  background-color: #00BAEF;
+  margin: 5px 0px 15px 10px;
+}
+
+/* line 36, ../sass/_colors.scss */
+.g-color {
+  border-radius: 50px;
+  border: 15px solid #EB4125;
+  color: #FFFFFF;
+  background-color: #EB4125;
+  margin: 5px 0px 15px 10px;
+}
+
+/*-------------------------------------contact-us---------------------------------------*/
+/* line 46, ../sass/_colors.scss */
+.text-color-black {
+  color: #1c1c1c;
+}
+
+/* line 49, ../sass/_colors.scss */
+.text-color-accent {
+  color: #ffaf36;
+}
+
+/*-------------------------------------careeers---------------------------------------*/
+/* line 53, ../sass/_colors.scss */
+.header-text {
+  color: #ffffff;
+  padding-top: 5px;
+}
+
+/* line 57, ../sass/_colors.scss */
+.about-views {
+  background-color: #EAEFF3;
+}
+
+/* line 61, ../sass/_colors.scss */
+.nav-link-base {
+  color: #ffffff;
+}
+
+/* line 69, ../sass/_colors.scss */
+.s-color {
+  border: 15px solid #FFAF36;
+  color: black;
+  background-color: #FFAF36;
+  margin: 5px 0px 15px -5px;
+}
+
+/* line 76, ../sass/_colors.scss */
+.bg-accent-color {
+  background: gray;
+}
+
+/* line 1, ../sass/_contact.scss */
+.container-image {
+  position: relative;
+  width: 100%;
+}
+
+/* line 5, ../sass/_contact.scss */
+.contact-text-position {
+  position: absolute;
+  top: 155px;
+  left: 90px;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+/* line 2, ../sass/_faq.scss */
+.question {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  column-width: 220px;
+  column-gap: 30px;
+}
+
+/*
+.numbered-list{
+  margin-bottom: 30px;
+  ol{
+    counter-reset: item;
+    list-style-type: none;
+    color: black;
+    li{
+      position: relative;
+      float: left;
+      width: 47%;
+      margin: 50px 0 0 60px;
+      &:nth-child(odd){
+        margin: 50px 0 0 0;
+        & > li::before{
+          content:'';
+          position: absolute;
+          height: 30px;
+          width: 30px;
+          left: -40px;
+          top: -3px;
+          text-align: center;
+          padding-top: 5px;
+          vertical-align: middle;
+          content: counter(item)'';
+          counter-increment: item;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-image: url(../images/faq-yellow-shape.png);
+        }
+      }
+    }
+  }
+}
+*/
+/* line 46, ../sass/_faq.scss */
+.numbered-list {
+  counter-reset: myCounter;
+}
+/* line 48, ../sass/_faq.scss */
+.numbered-list li {
+  list-style: none;
+}
+/* line 52, ../sass/_faq.scss */
+.numbered-list li:before {
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  font: 800 16px "Open Sans";
+  color: #1c1c1c;
+  background: #FFAF36;
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  transform: rotate(45deg);
+}
+/* line 65, ../sass/_faq.scss */
+.numbered-list li:before .list-number {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  margin-right: 19px;
+}
+
+/* line 76, ../sass/_faq.scss */
+.block-text-center {
+  display: flex;
+  align-items: center;
+}
+
 @font-face {
   font-family: "Proxima Nova Regular";
   src: url("../fonts/PNR.otf");
 }
-/* line 18, ../sass/_fonts.scss */
+/* line 20, ../sass/_fonts.scss */
 .text-line-height-xs {
   line-height: 24px;
 }
 
-/* line 21, ../sass/_fonts.scss */
+/* line 23, ../sass/_fonts.scss */
 .text-line-height-sm {
   line-height: 28px;
 }
 
-/* line 24, ../sass/_fonts.scss */
+/* line 26, ../sass/_fonts.scss */
 .text-line-height-md {
   line-height: 30px;
 }
 
-/* line 27, ../sass/_fonts.scss */
+/* line 29, ../sass/_fonts.scss */
 .text-line-height-lg {
   line-height: 36px;
 }
 
-/* line 31, ../sass/_fonts.scss */
-.text-content {
-  font: 400 14px "Open Sans";
+/*-------------------------------------Open Sans---------------------------------------*/
+/* line 33, ../sass/_fonts.scss */
+.text-xs-opensans {
+  font: 700 12px "Open Sans";
+  line-height: 18px;
 }
 
-/* line 34, ../sass/_fonts.scss */
+/* line 37, ../sass/_fonts.scss */
+.text-content {
+  font: 400 14px "Open Sans";
+  line-height: 18px;
+}
+
+/* line 41, ../sass/_fonts.scss */
+.text-xl-opensans {
+  font: 700 30px "Open Sans";
+  line-height: 18px;
+}
+
+/*-------------------------------------Raleway---------------------------------------*/
+/* line 46, ../sass/_fonts.scss */
 .text-sm-raleway {
   font: 400 14px "Raleway";
   color: #1c1c1c;
   line-height: 28px;
 }
 
-/* line 39, ../sass/_fonts.scss */
+/* line 51, ../sass/_fonts.scss */
+.text-sm-raleway-bold {
+  font: 700 14px "Raleway";
+  color: #1c1c1c;
+  line-height: 24px;
+}
+
+/* line 56, ../sass/_fonts.scss */
 .text-md-raleway {
   font: 700 16px "Raleway";
   color: #1c1c1c;
   line-height: 24px;
 }
 
-/* line 44, ../sass/_fonts.scss */
-.text-lg-raleway {
-  font: 900 18px "Raleway";
-  color: #1c1c1c;
+/* line 61, ../sass/_fonts.scss */
+.text-md-raleway-color {
+  font: 700 16px "Raleway";
+  color: #FFFFFF;
+  line-height: 24px;
 }
 
-/* line 48, ../sass/_fonts.scss */
+/* line 66, ../sass/_fonts.scss */
+.text-lg-raleway {
+  font: 700 18px "Raleway";
+  color: #1c1c1c;
+  line-height: 24px;
+}
+
+/* line 71, ../sass/_fonts.scss */
 .text-xl-raleway {
   font: 900 30px "Raleway";
   color: #1c1c1c;
+  line-height: 24px;
 }
 
-/* line 52, ../sass/_fonts.scss */
+/* line 76, ../sass/_fonts.scss */
+.text-xxl-raleway {
+  font: 700 60px "Raleway";
+  color: #FFFFFF;
+  line-height: 24px;
+}
+
+/*-------------------------------------contact-us---------------------------------------*/
+/* line 82, ../sass/_fonts.scss */
+.text-xl-accent {
+  font: 900 30px "Raleway";
+  color: #ffaf36;
+  line-height: 24px;
+}
+
+/*-------------------------------------Lora---------------------------------------*/
+/* line 88, ../sass/_fonts.scss */
+.text-sm-lora {
+  font: italic 800 15px "Lora";
+  color: #1c1c1c;
+  line-height: 28px;
+}
+
+/* line 93, ../sass/_fonts.scss */
+.text-sm-lora-color {
+  font: italic 800 15px "Lora";
+  color: #FFFFFF;
+  line-height: 28px;
+}
+
+/* line 98, ../sass/_fonts.scss */
 .text-md-lora {
   font: italic 800 16px "Lora";
   color: #1c1c1c;
   line-height: 30px;
 }
 
+/*-------------------------------------Proxima nova--------------------------------------*/
+/* line 104, ../sass/_fonts.scss */
+.text-xs-proxima {
+  font: 600 13px "Proxima Nova Regular";
+  line-height: 24px;
+}
+
+/*-------------------------------------blog---------------------------------------*/
 /* line 4, ../sass/footer.scss */
 .footer {
   width: 100%;
@@ -253,48 +641,53 @@ a:hover {
 }
 
 /* line 14, ../sass/footer.scss */
+.f-container {
+  margin-top: 50px;
+}
+
+/* line 17, ../sass/footer.scss */
 .f-social {
   margin-top: 40px;
 }
-/* line 16, ../sass/footer.scss */
+/* line 19, ../sass/footer.scss */
 .f-social li {
   border: 1px solid #373839;
   display: inline-block;
 }
-/* line 19, ../sass/footer.scss */
+/* line 22, ../sass/footer.scss */
 .f-social li a {
   color: #696A6A;
   background-color: transparent;
 }
 
-/* line 25, ../sass/footer.scss */
+/* line 28, ../sass/footer.scss */
 .form-container {
   background-color: #2a2b2c;
 }
 
-/* line 29, ../sass/footer.scss */
+/* line 32, ../sass/footer.scss */
 .form-bg-color {
   background-color: transparent;
   color: #696A6A;
   border: 1px solid #373839;
 }
 
-/* line 34, ../sass/footer.scss */
+/* line 37, ../sass/footer.scss */
 .footer-text-color {
   color: #696A6A;
 }
 
-/* line 37, ../sass/footer.scss */
+/* line 40, ../sass/footer.scss */
 .footer-header-color {
   color: #FFFFFF;
 }
 
-/* line 41, ../sass/footer.scss */
+/* line 44, ../sass/footer.scss */
 .footer-nav-list li {
   border-bottom: 1px solid #373839;
 }
 
-/* line 47, ../sass/footer.scss */
+/* line 50, ../sass/footer.scss */
 .footer-nav-list li::before {
   list-style: none;
   text-indent: -1em;
@@ -302,11 +695,27 @@ a:hover {
   padding-right: 5px;
   color: #FFAF36;
 }
-/* line 54, ../sass/footer.scss */
+/* line 57, ../sass/footer.scss */
 .footer-nav-list a {
   color: #696A6A;
   text-transform: uppercase;
   line-height: 39px;
+}
+
+/* line 3, ../sass/_forms.scss */
+input {
+  height: 47px;
+}
+
+/*-------------------------------------blog-post---------------------------------------*/
+/* line 7, ../sass/_forms.scss */
+.s-form {
+  font: 700 14px "Open Sans";
+  border: none;
+  border-bottom: 1px solid #dde4ea;
+  background-color: transparent;
+  line-height: 24px;
+  margin: 25px 0;
 }
 
 /* line 3, ../sass/_header.scss */
@@ -322,54 +731,132 @@ a:hover {
 }
 
 /* line 11, ../sass/_header.scss */
-.about-banner, .careers-banner {
+.blog-banner {
   position: relative;
   z-index: 50;
+  background: #000000;
   overflow: hidden;
   height: 395px;
 }
-/* line 16, ../sass/_header.scss */
-.about-banner img, .careers-banner img {
+/* line 17, ../sass/_header.scss */
+.blog-banner img {
   display: block;
   width: 100%;
   opacity: 0.4;
   min-height: 395px;
 }
 
-/* line 23, ../sass/_header.scss */
+/* line 24, ../sass/_header.scss */
+.homepage-1-banner, .about-banner, .careers-banner, .contact-banner, .faq-banner {
+  position: relative;
+  z-index: 50;
+  overflow: hidden;
+  height: 395px;
+  background: gray;
+}
+/* line 30, ../sass/_header.scss */
+.homepage-1-banner img, .about-banner img, .careers-banner img, .contact-banner img, .faq-banner img {
+  display: block;
+  width: 100%;
+  opacity: 0.4;
+  min-height: 395px;
+}
+
+/* line 37, ../sass/_header.scss */
+.contact-banner {
+  min-height: 396px;
+}
+
+/* line 40, ../sass/_header.scss */
 .header-logo-image {
   margin-top: -10px;
   margin-right: 15px;
 }
 
-/* line 28, ../sass/_header.scss */
+/* line 45, ../sass/_header.scss */
 .header-icon-image {
   margin-left: 35px;
 }
 
-/* line 34, ../sass/_header.scss */
+/* line 51, ../sass/_header.scss */
 .navbar-nav .nav-link a {
   color: #ffffff;
 }
 
-/* line 39, ../sass/_header.scss */
+/* line 56, ../sass/_header.scss */
 .nav-list li {
   display: inline-block;
   font: 700 14px "Open Sans";
   color: #ffffff;
 }
-/* line 43, ../sass/_header.scss */
+/* line 60, ../sass/_header.scss */
 .nav-list li a {
   color: #ffffff;
 }
-/* line 45, ../sass/_header.scss */
+/* line 62, ../sass/_header.scss */
 .nav-list li a .active-link:hover :active {
   color: #C28938;
 }
 
-/* line 51, ../sass/_header.scss */
+/* line 68, ../sass/_header.scss */
 .nav-link a {
   color: #ffffff;
+}
+
+/* line 1, ../sass/_homepage1.scss */
+.h-wrapper {
+  margin: auto 100px;
+  max-width: 1140px;
+  padding: 5vh 0;
+}
+
+/* line 6, ../sass/_homepage1.scss */
+.homepage-1-banner {
+  min-height: 620px;
+}
+
+/* line 9, ../sass/_homepage1.scss */
+.carousel slide {
+  position: relative;
+  width: 100%;
+}
+
+/* line 13, ../sass/_homepage1.scss */
+.home-position {
+  width: 750px;
+  position: absolute;
+  top: 155px;
+  left: 90px;
+  right: 0;
+  bottom: 0;
+  color: #FFFFFF;
+  z-index: 2;
+}
+
+/* line 23, ../sass/_homepage1.scss */
+.services {
+  background-color: #EAEFF3;
+}
+
+/* line 26, ../sass/_homepage1.scss */
+.home-border-bottom-line {
+  border-bottom: 1px solid #E6E9EB;
+}
+
+/* line 29, ../sass/_homepage1.scss */
+.border-bottom-accentcolor {
+  border-bottom: 2px solid #ffaf36;
+  margin: 10px 0;
+}
+
+/* line 33, ../sass/_homepage1.scss */
+.indent {
+  margin: 0 36px;
+}
+
+/* line 36, ../sass/_homepage1.scss */
+.indent-minus {
+  margin: -20px 0;
 }
 
 /* line 2, ../sass/_images.scss */
@@ -390,17 +877,15 @@ a:hover {
 .about-content-image {
   position: relative;
   width: 100%;
-  opacity: .5;
-  background-image: linear-gradient(150deg, rgba(54, 168, 255, 0.32) 0%, rgba(255, 175, 54, 0.32) 100%);
 }
 
-/* line 18, ../sass/_images.scss */
+/* line 16, ../sass/_images.scss */
 .abouts-client-image {
   display: inline;
 }
 
 /*-------------------------------------careeers---------------------------------------*/
-/* line 24, ../sass/_images.scss */
+/* line 22, ../sass/_images.scss */
 .career-top-layer-image {
   position: absolute;
   top: -22px;
@@ -408,7 +893,7 @@ a:hover {
   z-index: 100;
 }
 
-/* line 31, ../sass/_images.scss */
+/* line 29, ../sass/_images.scss */
 .career-frame-layer-image {
   position: relative;
   top: 30px;
@@ -418,51 +903,83 @@ a:hover {
   z-index: 50;
 }
 
-/* line 9, ../sass/_indents.scss */
-.text-margin-vertical-md {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-/* line 13, ../sass/_indents.scss */
+/* line 11, ../sass/_indents.scss */
 .text-margin-vertical-sm {
   margin-top: 30px;
   margin-bottom: 15px;
 }
 
-/* line 17, ../sass/_indents.scss */
+/* line 15, ../sass/_indents.scss */
+.text-margin-vertical-md {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* line 19, ../sass/_indents.scss */
+.text-margin-vertical-sm-md {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+/* line 23, ../sass/_indents.scss */
+.text-margin-vertical-lg {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* line 27, ../sass/_indents.scss */
+.text-margin-top-sm {
+  margin-top: 30px;
+}
+
+/* line 30, ../sass/_indents.scss */
 .text-margin-top {
   margin-top: 50px;
 }
 
-/* line 20, ../sass/_indents.scss */
+/* line 33, ../sass/_indents.scss */
+.text-margin-bottom-xs {
+  margin-bottom: 10px;
+}
+
+/* line 36, ../sass/_indents.scss */
 .text-margin-bottom-sm {
   margin-bottom: 15px;
 }
 
-/* line 23, ../sass/_indents.scss */
+/* line 39, ../sass/_indents.scss */
 .text-margin-bottom {
   margin-bottom: 30px;
 }
 
-/* line 26, ../sass/_indents.scss */
+/* line 42, ../sass/_indents.scss */
 .text-margin-bottom-lg {
   margin-bottom: 50px;
 }
 
-/* line 29, ../sass/_indents.scss */
+/* line 45, ../sass/_indents.scss */
 .text-margin-left {
   margin-left: 70px;
 }
 
-/* line 32, ../sass/_indents.scss */
+/* line 48, ../sass/_indents.scss */
 .about-pre-footer {
   padding-bottom: 20vh;
 }
 
-/* line 36, ../sass/_indents.scss */
+/* line 52, ../sass/_indents.scss */
 .header-padding {
   padding-top: 10px;
+}
+
+/* line 55, ../sass/_indents.scss */
+.header-padding-sm {
+  padding-top: 20px;
+}
+
+/* line 58, ../sass/_indents.scss */
+section {
+  padding: 6vh 0;
 }
 
 /* line 3, ../sass/_section.scss */
@@ -522,7 +1039,7 @@ a:hover {
 }
 
 /*-------------------------------------careeers---------------------------------------*/
-/* line 21, ../sass/main.scss */
+/* line 27, ../sass/main.scss */
 .wrapper {
   margin: 0 auto;
   max-width: 1140px;

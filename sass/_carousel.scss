@@ -1,0 +1,21 @@
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+  filter: none;
+}
+.clients-carousel{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  li{
+    width: 318px;
+    margin: 0 23px;
+    p{
+      line-height: 28px;
+    }
+    .row{
+      margin-top: 50px;
+    }
+  }
+}
+

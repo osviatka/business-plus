@@ -1,0 +1,38 @@
+.h-wrapper{
+  margin: auto 100px;
+  max-width: 1140px;
+  padding: 5vh 0;
+}
+.homepage-1-banner{
+  min-height: 620px;
+}
+.carousel slide{
+  position: relative;
+  width: 100%;
+}
+.home-position{
+  width: 750px;
+  position: absolute;
+  top: 155px;
+  left: 90px;
+  right: 0;
+  bottom: 0;
+  color: #FFFFFF;
+  z-index: 2;
+}
+.services{
+  background-color: #EAEFF3;
+}
+.home-border-bottom-line{
+   border-bottom: 1px solid #E6E9EB;
+}
+.border-bottom-accentcolor{
+  border-bottom: 2px solid $accent-color;
+  margin: 10px 0;
+}
+.indent{
+  margin: 0 36px;
+}
+.indent-minus{
+  margin: -20px 0;
+}

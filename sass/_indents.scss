@@ -6,16 +6,32 @@ $margin-b: 30px;
 $margin-l: 30px;
 $margin-r: 30px;
 
-.text-margin-vertical-md{
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
+
+
 .text-margin-vertical-sm{
   margin-top: 30px;
   margin-bottom: 15px;
 }
+.text-margin-vertical-md{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.text-margin-vertical-sm-md{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.text-margin-vertical-lg{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.text-margin-top-sm{
+  margin-top: 30px;
+}
 .text-margin-top{
   margin-top: 50px;
+}
+.text-margin-bottom-xs{
+  margin-bottom: 10px;
 }
 .text-margin-bottom-sm{
   margin-bottom: 15px;
@@ -36,4 +52,9 @@ $margin-r: 30px;
 .header-padding{
   padding-top: 10px;
 }
-
+.header-padding-sm {
+  padding-top: 20px;
+}
+section{
+  padding: 6vh 0;
+}
