@@ -1,23 +1,20 @@
-
-
 .pyramids-layer{
   position: relative;
   &:before {
     position: absolute;
-    z-index: -2;
+    bottom: 0px;
+    right: 83px;
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 0 77.5px 101px 77.5px;
     border-color: transparent transparent #36a8ff transparent;
     content: "";
-    bottom: -152px;
-    right: 83px;
+    z-index: -2;
   }
   &:after {
     position: absolute;
-    z-index: -1;
-    bottom: -152px;
+    bottom: 0;
     right: 19px;
     content: '';
     width: 0;
@@ -25,6 +22,7 @@
     border-style: solid;
     border-width: 0 68px 70px 68px;
     border-color: transparent transparent #ffaf36 transparent;
+    z-index: -1;
   }
 }
 .collapsed{

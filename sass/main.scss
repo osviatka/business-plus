@@ -3,7 +3,8 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset";
+
+@import "about";
 @import "blog";
 @import "blog-post";
 @import "buttons";
@@ -11,6 +12,7 @@
 @import "carousel";
 @import "colors";
 @import "contact";
+@import "error";
 @import "faq";
 @import "fonts";
 @import "footer";
@@ -19,13 +21,21 @@
 @import "homepage1";
 @import "images";
 @import "indents";
+@import "news";
 @import "section";
+@import "services";
+@import "testimonial";
 @import "typography";
 @import "variables";
 
 
+body{
+  font: 400 14px "Open Sans";
+  line-height: 28px;
+  list-style-type: none;
+}
 .wrapper{
   margin: 0 auto;
   max-width: 1140px;
-  padding: 5vh 0;
+  padding: 7vh 0;
 }

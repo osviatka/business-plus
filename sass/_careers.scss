@@ -10,9 +10,11 @@ a:hover {
 }
 .inside-wrapper{
   width: 920px;
+  .career-top-layer-image{
+    background: #55595c;
+  }
 }
 .clients-logo-list{
-  display: inline-block;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -20,7 +22,6 @@ a:hover {
   padding: 20px;
   margin-right: 5px;
 }
-
 .career-list-style ul {
   list-style: none;
 }

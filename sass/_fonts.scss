@@ -12,6 +12,7 @@ $fsize-md: 16px;
 $fsize-lg: 18px;
 $fsize-xl: 30px;
 $fsize-xxl: 60px;
+$fsize-xxxl: 72px;
 
 $fweight-xs: 600;
 $fweight-sm: 700;
@@ -38,11 +39,25 @@ $fweight-md: 800;
    font: 400 14px "Open Sans";
    line-height: 18px;
  }
+.text-sm-opensans{
+  font: 400 14px "Open Sans";
+  line-height: 18px;
+}
 .text-xl-opensans{
   font: 700 30px "Open Sans";
   line-height: 18px;
 }
+.text-xxxl-opensans{
+  font: 300 $fsize-xxxl "Open Sans";
+  line-height: 72px;
+}
 /*-------------------------------------Raleway---------------------------------------*/
+
+.text-xxs-raleway{
+  font: 500 $fsize-xxs "Raleway";
+  color: #1c1c1c;
+  line-height: 28px;
+}
 .text-sm-raleway{
    font: 400 $fsize-sm "Raleway";
    color: #1c1c1c;

@@ -3,6 +3,29 @@
   background-image: none;
   filter: none;
 }
+.carousel-indicators{
+  width: 100%;
+  margin-left: 0;
+  bottom: -50px;
+  left: 0;
+  li{
+    background-color: #00BAEF;
+    &.active{
+      background-color: #ffaf36;
+    }
+  }
+}
+.circle-indicators{
+  float: left;
+  margin-right: 10px;
+  transition: 0.2s ease;
+  border: none;
+  background-color: #00BAEF;
+  margin: 0 10px 0 10px;
+  width: 14px;
+  height: 14px;
+
+}
 .clients-carousel{
   display: flex;
   align-items: center;
