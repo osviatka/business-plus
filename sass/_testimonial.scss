@@ -13,8 +13,8 @@
       width: 750px;
       height: 225px;
       background: #fff;
-      border: 1px solid rgba(#ffffff, 0.15);
-      padding: 35px;
+      padding: 20px;
+      border: 1px solid rgba(221, 228, 234, 18.15);
     }
   }
 }
@@ -25,4 +25,22 @@
   .rm-link{
     padding: 14px 25px;
   }
+}
+.quotes{
+  position: relative;
+  margin-top: 35px;
+  &::before{
+    position: absolute;
+    content: "\275D";
+    font-size: 500px;
+    opacity: 0.1;
+    top: 5%;
+    left:75%;
+    z-index:2;
+  }
+
+  &-blue::before{
+    color: #00BAEF;
+  }
+
 }

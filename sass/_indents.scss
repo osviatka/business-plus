@@ -27,6 +27,9 @@ $margin-r: 30px;
   margin-bottom: 50px;
 }
 /*-------------------------------------top---------------------------------------*/
+.text-margin-top-xs{
+  margin-top: 15px;
+}
 .text-margin-top-sm{
   margin-top: 30px;
 }
@@ -57,10 +60,10 @@ $margin-r: 30px;
   margin-left: 70px;
 }
 /*-------------------------------------PADDING---------------------------------------*/
-.about-pre-footer{
+/*.about-pre-footer{
   padding-bottom: 20vh;
 }
-
+*/
 .header-padding{
   padding-top: 10px;
 }
@@ -74,21 +77,30 @@ $margin-r: 30px;
 .flex {
   display:flex;
 }
-.flex-center{
+.flex-justify-center {
   justify-content: center;
 }
-.flex-row-reverse {
-  flex-direction:row-reverse;
+.flex-justify-between{
+  justify-content: space-between;
+}
+.flex-justify-around{
+  justify-content: space-around;
+}
+.flex-justify-start{
+  justify-content: flex-start;
 }
 .flex-justify-end {
   justify-content: flex-end;
 }
-.flex-justify-center {
-  justify-content: center;
+.flex-column{
+  flex-direction: column;
 }
 .flex-align-center {
   align-items: center;
 }
 .flex-wrap {
   flex-wrap: wrap;
+}
+.flex-row-reverse {
+  flex-direction:row-reverse;
 }

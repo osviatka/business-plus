@@ -29,7 +29,7 @@
   text-align: left
 
 }
-.services{
+.services,.news{
   background-color: #EAEFF3;
 }
      .quotes{
@@ -39,7 +39,6 @@
         position: absolute;
         content: "\275D";
         font-size:150px;
-
         opacity: 0.1;
         top: 15%;
         left:-2%;
@@ -54,8 +53,8 @@
       }
       &-orange::before{
         color: #ffaf36;
-      }
-      }
+}
+}
 
 
 .home-border-bottom-line{
@@ -71,3 +70,4 @@
 .indent-minus{
   margin: -20px 0;
 }
+

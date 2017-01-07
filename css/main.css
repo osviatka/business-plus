@@ -100,8 +100,8 @@ h5 {
   -moz-border-radius: 5px;
   position: relative;
   /* !!! */
-  padding: 5px;
-  margin-left: -75px;
+  padding: 0px;
+  margin: 0vh 0;
   text-align: center;
 }
 
@@ -114,23 +114,25 @@ h5 {
   left: -20px;
   top: 50%;
   margin-top: -10px;
+  width: 0;
+  height: 0;
 }
 
-/* line 59, ../sass/_blog-post.scss */
+/* line 62, ../sass/_blog-post.scss */
 .header-bold {
   font: 800 13px "Proxima Nova Regular";
   text-transform: uppercase;
   color: #1c1c1c;
 }
 
-/* line 64, ../sass/_blog-post.scss */
+/* line 67, ../sass/_blog-post.scss */
 .text-color {
   font: 600 13px "Proxima Nova Regular";
   color: #FFAF36;
   text-transform: uppercase;
 }
 
-/* line 69, ../sass/_blog-post.scss */
+/* line 72, ../sass/_blog-post.scss */
 .s-icon {
   border: 2px solid;
   border-radius: 50%;
@@ -138,17 +140,17 @@ h5 {
   font-size: 20px;
 }
 
-/* line 75, ../sass/_blog-post.scss */
+/* line 78, ../sass/_blog-post.scss */
 .font-icon {
   margin-top: 30px;
 }
 
-/* line 78, ../sass/_blog-post.scss */
+/* line 81, ../sass/_blog-post.scss */
 .send-comment {
   background-color: #EAEFF3;
 }
 
-/* line 81, ../sass/_blog-post.scss */
+/* line 84, ../sass/_blog-post.scss */
 .heading {
   padding: 20px 0 0;
 }
@@ -213,27 +215,17 @@ a:hover {
 }
 
 /* line 17, ../sass/_careers.scss */
-.clients-logo-list {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  border: 1px solid #E6E9EB;
-  padding: 20px;
-  margin-right: 5px;
-}
-
-/* line 25, ../sass/_careers.scss */
 .career-list-style ul {
   list-style: none;
 }
 
-/* line 28, ../sass/_careers.scss */
+/* line 20, ../sass/_careers.scss */
 .career-list-style li {
   margin-left: 17px;
   position: relative;
 }
 
-/* line 32, ../sass/_careers.scss */
+/* line 24, ../sass/_careers.scss */
 .career-list-style li:after {
   content: '\2714';
   position: absolute;
@@ -241,7 +233,7 @@ a:hover {
   left: -15px;
 }
 
-/* line 38, ../sass/_careers.scss */
+/* line 30, ../sass/_careers.scss */
 .card-card-block {
   border: none;
 }
@@ -290,16 +282,44 @@ a:hover {
 .clients-carousel li {
   width: 318px;
   margin: 0 23px;
+  list-style-type: none;
 }
-/* line 36, ../sass/_carousel.scss */
+/* line 37, ../sass/_carousel.scss */
 .clients-carousel li p {
   line-height: 28px;
 }
-/* line 39, ../sass/_carousel.scss */
+/* line 40, ../sass/_carousel.scss */
 .clients-carousel li .row {
   margin-top: 50px;
 }
 
+/* line 45, ../sass/_carousel.scss */
+.clients-logo-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+}
+/* line 51, ../sass/_carousel.scss */
+.clients-logo-list li {
+  border: 1px solid #eaeff3;
+  width: 178px;
+  height: 178px;
+  padding: 40px;
+  text-align: center;
+}
+
+/*-------------------------------------Open Sans---------------------------------------*/
+/*.clients-logo-list{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border: 1px solid #E6E9EB;
+  padding: 20px;
+  margin-right: 5px;
+}
+*/
 /* borders
 .border-bottom-line{
   border-bottom: 1px solid #dde4ea;
@@ -373,7 +393,7 @@ a:hover {
   border: 15px solid #FFAF36;
   color: black;
   background-color: #FFAF36;
-  margin: 5px 0 15px -5px;
+  margin: -46px -445px 15px -20px;
 }
 
 /* line 80, ../sass/_colors.scss */
@@ -386,13 +406,15 @@ a:hover {
   background-color: #EAEFF3;
 }
 
-/* line 1, ../sass/_contact.scss */
+/*-------------------------------------contact-us---------------------------------------*/
+/* line 2, ../sass/_contact.scss */
 .container-image {
   position: relative;
   width: 100%;
+  background: #55595c;
 }
 
-/* line 5, ../sass/_contact.scss */
+/* line 7, ../sass/_contact.scss */
 .contact-text-position {
   position: absolute;
   top: 155px;
@@ -400,6 +422,27 @@ a:hover {
   right: 0;
   bottom: 0;
   z-index: 2;
+}
+
+/* line 16, ../sass/_contact.scss */
+.text-xl-accent {
+  font: 900 30px "Raleway";
+  color: #ffaf36;
+  line-height: 24px;
+}
+
+/* line 21, ../sass/_contact.scss */
+.text-xl-raleway-a-color {
+  font: 900 30px "Raleway";
+  color: #ffaf36;
+  line-height: 24px;
+}
+
+/* line 26, ../sass/_contact.scss */
+.text-md-raleway-a-color {
+  font: 700 16px "Raleway";
+  color: #fff;
+  line-height: 24px;
 }
 
 /* line 1, ../sass/_error.scss */
@@ -435,15 +478,17 @@ a:hover {
   border-radius: 20px;
 }
 
-/* line 2, ../sass/_faq.scss */
+/*
 .question {
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
+  -webkit-column-count:2;
+  -moz-column-count:2;
+  column-count:2;
   column-width: 220px;
   column-gap: 30px;
-}
 
+}
+*/
+/*-------------------------------------0ld-list---------------------------------------*/
 /*
 .numbered-list{
   margin-bottom: 30px;
@@ -472,49 +517,84 @@ a:hover {
           counter-increment: item;
           background-repeat: no-repeat;
           background-position: center center;
-          background-image: url(../images/faq-yellow-shape.png);
+          background-image: url(../images/faq-yellow-shape.png) ;
         }
       }
     }
   }
 }
 */
-/* line 46, ../sass/_faq.scss */
+/*-------------------------------------0ld-list---------------------------------------*/
+/*
+.numbered-list{
+  counter-reset: myCounter;
+  li{
+    list-style: none;
+
+  }
+  li:before {
+    counter-increment: myCounter;
+    content:counter(myCounter);
+    font: 800 16px "Open Sans";
+    color: #1c1c1c;
+    background: #FFAF36;
+    display: inline-block;
+    text-align: center;
+    margin: 5px 10px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    .list-number{
+      position: absolute;
+      z-index: 2;
+      top: 0;
+      left: 0;
+      margin-right: 19px;
+    }
+  }
+}
+*/
+/*-------------------------------------list---------------------------------------*/
+/* line 80, ../sass/_faq.scss */
 .numbered-list {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+}
+/* line 84, ../sass/_faq.scss */
+.numbered-list ol {
   counter-reset: myCounter;
 }
-/* line 48, ../sass/_faq.scss */
-.numbered-list li {
+/* line 86, ../sass/_faq.scss */
+.numbered-list ol li {
   list-style: none;
 }
-/* line 52, ../sass/_faq.scss */
-.numbered-list li:before {
-  counter-increment: myCounter;
-  content: counter(myCounter);
-  font: 800 16px "Open Sans";
+/* line 89, ../sass/_faq.scss */
+.numbered-list ol h5 {
   color: #1c1c1c;
-  background: #FFAF36;
+  font: 700 16px "Raleway";
+  line-height: 24px;
+  text-transform: uppercase;
   display: inline-block;
-  text-align: center;
-  margin: 5px 10px;
-  line-height: 40px;
-  width: 40px;
-  height: 40px;
-  transform: rotate(45deg);
 }
-/* line 65, ../sass/_faq.scss */
-.numbered-list li:before .list-number {
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  margin-right: 19px;
+/* line 96, ../sass/_faq.scss */
+.numbered-list ol p {
+  margin: 0 0 10% 5%;
 }
 
-/* line 76, ../sass/_faq.scss */
-.block-text-center {
-  display: flex;
-  align-items: center;
+/* line 101, ../sass/_faq.scss */
+.numbered-list ol li h5::before {
+  color: black;
+  content: counter(myCounter,decimal);
+  counter-increment: myCounter;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin: 5px 15px 0 -25px;
+  text-align: center;
+  line-height: 30px;
+  background-image: url(../images/faq-yellow-shape.png);
 }
 
 @font-face {
@@ -629,30 +709,22 @@ a:hover {
   line-height: 24px;
 }
 
-/*-------------------------------------contact-us---------------------------------------*/
-/* line 97, ../sass/_fonts.scss */
-.text-xl-accent {
-  font: 900 30px "Raleway";
-  color: #ffaf36;
-  line-height: 24px;
-}
-
 /*-------------------------------------Lora---------------------------------------*/
-/* line 103, ../sass/_fonts.scss */
+/* line 98, ../sass/_fonts.scss */
 .text-sm-lora {
   font: italic 800 15px "Lora";
   color: #1c1c1c;
   line-height: 28px;
 }
 
-/* line 108, ../sass/_fonts.scss */
+/* line 103, ../sass/_fonts.scss */
 .text-sm-lora-color {
   font: italic 800 15px "Lora";
   color: #FFFFFF;
   line-height: 28px;
 }
 
-/* line 113, ../sass/_fonts.scss */
+/* line 108, ../sass/_fonts.scss */
 .text-md-lora {
   font: italic 800 16px "Lora";
   color: #1c1c1c;
@@ -660,7 +732,7 @@ a:hover {
 }
 
 /*-------------------------------------Proxima nova--------------------------------------*/
-/* line 119, ../sass/_fonts.scss */
+/* line 114, ../sass/_fonts.scss */
 .text-xs-proxima {
   font: 600 13px "Proxima Nova Regular";
   line-height: 24px;
@@ -769,26 +841,29 @@ input {
 .header .navbar {
   background-color: rgba(255, 255, 255, 0);
 }
-/* line 12, ../sass/_header.scss */
-.header .navbar .navbar-nav .nav-link a {
-  color: #ffffff;
-}
-/* line 17, ../sass/_header.scss */
+/* line 11, ../sass/_header.scss */
 .header .navbar .nav-list li {
   display: inline-block;
   font: 700 14px "Open Sans";
-  color: #ffffff;
-}
-/* line 21, ../sass/_header.scss */
-.header .navbar .nav-list li a {
-  color: #ffffff;
-}
-/* line 23, ../sass/_header.scss */
-.header .navbar .nav-list li a .active-link:hover :active {
-  color: #C28938;
 }
 
-/* line 31, ../sass/_header.scss */
+/* line 22, ../sass/_header.scss */
+.nav a:hover {
+  color: #ffaf36;
+  text-decoration: none;
+}
+/* line 26, ../sass/_header.scss */
+.nav a:active {
+  color: #C28938;
+  text-decoration: none;
+}
+/* line 30, ../sass/_header.scss */
+.nav a:focus {
+  color: #C28938;
+  text-decoration: none;
+}
+
+/* line 36, ../sass/_header.scss */
 .blog-banner {
   position: relative;
   z-index: 50;
@@ -796,7 +871,7 @@ input {
   overflow: hidden;
   height: 395px;
 }
-/* line 37, ../sass/_header.scss */
+/* line 42, ../sass/_header.scss */
 .blog-banner img {
   display: block;
   width: 100%;
@@ -804,7 +879,23 @@ input {
   min-height: 395px;
 }
 
-/* line 44, ../sass/_header.scss */
+/* line 49, ../sass/_header.scss */
+.news-banner {
+  position: relative;
+  z-index: 50;
+  background: #373a3c;
+  overflow: hidden;
+  height: 395px;
+}
+/* line 55, ../sass/_header.scss */
+.news-banner img {
+  display: block;
+  width: 100%;
+  opacity: 0.4;
+  min-height: 395px;
+}
+
+/* line 62, ../sass/_header.scss */
 .testimonial-banner, .services-banner, .error-banner, .about-banner, .careers-banner, .contact-banner, .faq-banner {
   position: relative;
   z-index: 50;
@@ -812,7 +903,7 @@ input {
   min-height: 395px;
   background: #373a3c;
 }
-/* line 50, ../sass/_header.scss */
+/* line 68, ../sass/_header.scss */
 .testimonial-banner img, .services-banner img, .error-banner img, .about-banner img, .careers-banner img, .contact-banner img, .faq-banner img {
   display: block;
   width: 100%;
@@ -820,7 +911,7 @@ input {
   min-height: 395px;
 }
 
-/* line 57, ../sass/_header.scss */
+/* line 75, ../sass/_header.scss */
 .homepage-1-banner {
   position: relative;
   z-index: 50;
@@ -828,7 +919,7 @@ input {
   min-height: 835px;
   background: gray;
 }
-/* line 63, ../sass/_header.scss */
+/* line 81, ../sass/_header.scss */
 .homepage-1-banner img {
   display: block;
   width: 100%;
@@ -836,18 +927,18 @@ input {
   min-height: 395px;
 }
 
-/* line 70, ../sass/_header.scss */
+/* line 88, ../sass/_header.scss */
 .contact-banner {
   min-height: 396px;
 }
 
-/* line 73, ../sass/_header.scss */
+/* line 91, ../sass/_header.scss */
 .header-logo-image {
   margin-top: -25px;
   margin-right: 15px;
 }
 
-/* line 78, ../sass/_header.scss */
+/* line 96, ../sass/_header.scss */
 .header-icon-image {
   margin-left: 35px;
 }
@@ -892,7 +983,7 @@ input {
 }
 
 /* line 32, ../sass/_homepage1.scss */
-.services {
+.services, .news {
   background-color: #EAEFF3;
 }
 
@@ -911,36 +1002,36 @@ input {
   left: -2%;
   z-index: 2;
 }
-/* line 49, ../sass/_homepage1.scss */
+/* line 48, ../sass/_homepage1.scss */
 .quotes-grey::before {
   color: #1c1c1c;
 }
-/* line 52, ../sass/_homepage1.scss */
+/* line 51, ../sass/_homepage1.scss */
 .quotes-blue::before {
   color: #00BAEF;
 }
-/* line 55, ../sass/_homepage1.scss */
+/* line 54, ../sass/_homepage1.scss */
 .quotes-orange::before {
   color: #ffaf36;
 }
 
-/* line 61, ../sass/_homepage1.scss */
+/* line 60, ../sass/_homepage1.scss */
 .home-border-bottom-line {
   border-bottom: 1px solid #E6E9EB;
 }
 
-/* line 64, ../sass/_homepage1.scss */
+/* line 63, ../sass/_homepage1.scss */
 .border-bottom-accentcolor {
   border-bottom: 2px solid #ffaf36;
   margin: 10px 0;
 }
 
-/* line 68, ../sass/_homepage1.scss */
+/* line 67, ../sass/_homepage1.scss */
 .indent {
   margin: 0 36px;
 }
 
-/* line 71, ../sass/_homepage1.scss */
+/* line 70, ../sass/_homepage1.scss */
 .indent-minus {
   margin: -20px 0;
 }
@@ -1006,64 +1097,68 @@ input {
 
 /*-------------------------------------top---------------------------------------*/
 /* line 30, ../sass/_indents.scss */
+.text-margin-top-xs {
+  margin-top: 15px;
+}
+
+/* line 33, ../sass/_indents.scss */
 .text-margin-top-sm {
   margin-top: 30px;
 }
 
-/* line 33, ../sass/_indents.scss */
+/* line 36, ../sass/_indents.scss */
 .text-margin-top {
   margin-top: 50px;
 }
 
 /*-------------------------------------bottom---------------------------------------*/
-/* line 37, ../sass/_indents.scss */
+/* line 40, ../sass/_indents.scss */
 .text-margin-bottom-xs {
   margin-bottom: 10px;
 }
 
-/* line 40, ../sass/_indents.scss */
+/* line 43, ../sass/_indents.scss */
 .text-margin-bottom-sm {
   margin-bottom: 15px;
 }
 
-/* line 43, ../sass/_indents.scss */
+/* line 46, ../sass/_indents.scss */
 .text-margin-bottom {
   margin-bottom: 30px;
 }
 
-/* line 46, ../sass/_indents.scss */
+/* line 49, ../sass/_indents.scss */
 .text-margin-bottom-lg {
   margin-bottom: 50px;
 }
 
-/* line 49, ../sass/_indents.scss */
+/* line 52, ../sass/_indents.scss */
 .text-margin-bottom-xxxl {
   margin-bottom: 150px;
 }
 
 /*-------------------------------------left---------------------------------------*/
-/* line 53, ../sass/_indents.scss */
+/* line 56, ../sass/_indents.scss */
 .margin-left-sm {
   margin-left: 55px;
 }
 
-/* line 56, ../sass/_indents.scss */
+/* line 59, ../sass/_indents.scss */
 .text-margin-left {
   margin-left: 70px;
 }
 
 /*-------------------------------------PADDING---------------------------------------*/
-/* line 60, ../sass/_indents.scss */
-.about-pre-footer {
+/*.about-pre-footer{
   padding-bottom: 20vh;
 }
-
-/* line 64, ../sass/_indents.scss */
+*/
+/* line 67, ../sass/_indents.scss */
 .header-padding {
   padding-top: 10px;
 }
 
-/* line 67, ../sass/_indents.scss */
+/* line 70, ../sass/_indents.scss */
 .header-padding-sm {
   padding-top: 20px;
 }
@@ -1072,39 +1167,54 @@ input {
   padding: 3vh 0;
 }*/
 /*-------------------------------------flex---------------------------------------*/
-/* line 74, ../sass/_indents.scss */
+/* line 77, ../sass/_indents.scss */
 .flex {
   display: flex;
 }
 
-/* line 77, ../sass/_indents.scss */
-.flex-center {
-  justify-content: center;
-}
-
 /* line 80, ../sass/_indents.scss */
-.flex-row-reverse {
-  flex-direction: row-reverse;
-}
-
-/* line 83, ../sass/_indents.scss */
-.flex-justify-end {
-  justify-content: flex-end;
-}
-
-/* line 86, ../sass/_indents.scss */
 .flex-justify-center {
   justify-content: center;
 }
 
+/* line 83, ../sass/_indents.scss */
+.flex-justify-between {
+  justify-content: space-between;
+}
+
+/* line 86, ../sass/_indents.scss */
+.flex-justify-around {
+  justify-content: space-around;
+}
+
 /* line 89, ../sass/_indents.scss */
+.flex-justify-start {
+  justify-content: flex-start;
+}
+
+/* line 92, ../sass/_indents.scss */
+.flex-justify-end {
+  justify-content: flex-end;
+}
+
+/* line 95, ../sass/_indents.scss */
+.flex-column {
+  flex-direction: column;
+}
+
+/* line 98, ../sass/_indents.scss */
 .flex-align-center {
   align-items: center;
 }
 
-/* line 92, ../sass/_indents.scss */
+/* line 101, ../sass/_indents.scss */
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+/* line 104, ../sass/_indents.scss */
+.flex-row-reverse {
+  flex-direction: row-reverse;
 }
 
 /* line 2, ../sass/_news.scss */
@@ -1178,6 +1288,42 @@ input {
   transform: rotate(90deg);
 }
 
+/* line 33, ../sass/_section.scss */
+.pyramids-layer-left {
+  position: relative;
+}
+/* line 35, ../sass/_section.scss */
+.pyramids-layer-left:before {
+  position: absolute;
+  bottom: 0px;
+  right: 83px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 77.5px 101px 77.5px;
+  border-color: transparent transparent #36a8ff transparent;
+  content: "";
+  z-index: -2;
+}
+/* line 47, ../sass/_section.scss */
+.pyramids-layer-left:after {
+  position: absolute;
+  bottom: 0;
+  right: 19px;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 68px 70px 68px;
+  border-color: transparent transparent #ffaf36 transparent;
+  z-index: -1;
+}
+
+/* line 60, ../sass/_section.scss */
+.collapsed {
+  transform: rotate(90deg);
+}
+
 /* line 1, ../sass/_testimonial.scss */
 .wrapper-testimonial {
   padding: 7vh 0 7vh;
@@ -1197,8 +1343,8 @@ input {
   width: 750px;
   height: 225px;
   background: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  padding: 35px;
+  padding: 20px;
+  border: 1px solid #dde4ea;
 }
 
 /* line 21, ../sass/_testimonial.scss */
@@ -1209,6 +1355,26 @@ input {
 /* line 25, ../sass/_testimonial.scss */
 .post-comments .rm-link {
   padding: 14px 25px;
+}
+
+/* line 29, ../sass/_testimonial.scss */
+.quotes {
+  position: relative;
+  margin-top: 35px;
+}
+/* line 32, ../sass/_testimonial.scss */
+.quotes::before {
+  position: absolute;
+  content: "\275D";
+  font-size: 500px;
+  opacity: 0.1;
+  top: 5%;
+  left: 75%;
+  z-index: 2;
+}
+/* line 42, ../sass/_testimonial.scss */
+.quotes-blue::before {
+  color: #00BAEF;
 }
 
 /* line 4, ../sass/_typography.scss */
@@ -1234,6 +1400,16 @@ input {
 /* line 16, ../sass/_typography.scss */
 .text-align-right {
   text-align: right;
+}
+
+/* line 19, ../sass/_typography.scss */
+.text-align-center {
+  text-align: center;
+}
+
+/* line 23, ../sass/_typography.scss */
+.list-style-none {
+  list-style-type: none;
 }
 
 /*-------------------------------------careeers---------------------------------------*/

@@ -33,6 +33,7 @@
   li{
     width: 318px;
     margin: 0 23px;
+    list-style-type: none;
     p{
       line-height: 28px;
     }
@@ -41,4 +42,28 @@
     }
   }
 }
+.clients-logo-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  li {
+    border: 1px solid #eaeff3;
+    width: 178px;
+    height: 178px;
+    padding: 40px;
+    text-align: center;
+  }
+}
 
+/*-------------------------------------Open Sans---------------------------------------*/
+/*.clients-logo-list{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border: 1px solid #E6E9EB;
+  padding: 20px;
+  margin-right: 5px;
+}
+*/
