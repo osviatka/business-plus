@@ -1,0 +1,29 @@
+
+.image-block{
+  position: relative;
+  z-index: 50;
+}
+.buttons-layer{
+  position: absolute;
+  top: 190px;
+  left: 450px;
+  z-index: 100;
+}
+
+
+/*-------------------------------------careeers---------------------------------------*/
+.career-top-layer-image{
+  position: absolute;
+  top: -22px;
+  left: 0;
+  z-index: 100;
+
+}
+.career-frame-layer-image{
+  position: relative;
+  top: 30px;
+  right: 210px;
+  bottom: 0;
+  left: 80px;
+  z-index: 50;
+}

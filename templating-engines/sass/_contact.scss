@@ -1,0 +1,30 @@
+/*-------------------------------------contact-us---------------------------------------*/
+.container-image{
+  position: relative;
+  width: 100%;
+  background: #55595c;
+}
+.contact-text-position{
+  position: absolute;
+  top: 155px;
+  left: 90px;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.text-xl-accent{
+  font: 900 30px "Raleway";
+  color: #ffaf36;
+  line-height: 24px;
+}
+.text-xl-raleway-a-color{
+  font: 900 30px "Raleway";
+  color: #ffaf36;
+  line-height: 24px;
+}
+.text-md-raleway-a-color{
+  font: 700 16px "Raleway";
+  color: #fff;
+  line-height: 24px;
+}

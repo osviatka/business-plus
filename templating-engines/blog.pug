@@ -1,10 +1,11 @@
 doctype html
 html
     head
-        meta(charset="utf-8")
-        meta (http-equiv="x-ua-compatible" content="ie=edge")
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        meta(http-equiv="x-ua-compatible", content="ie=edge")
         title Blog
-        link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700,700i,800,800i" rel="stylesheet")
+        link(href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700,700i,800,800i" rel="stylesheet")
         link(href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet")
         link(href="https://fonts.googleapis.com/css?family=Raleway:400,700,800,900" rel="stylesheet")
         link(href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet")
@@ -12,12 +13,12 @@ html
                   integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous")
         link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
     body
-        section.header border-bottom-line
+        section.header.border-bottom-line
             nav.navbar.navbar-light.bg-faded.wrapper
-                a.navbar-brand (href="#")
+                a.navbar-brand(href="#")
                     img.header-logo-image(src="images/logo.png" width="164" height="34" alt="logo")
                     img.header-icon-image(src="images/header-icon.png" width="23" height="23" alt="phone_icon")
-                    a.header-text(href="tel:+9978 8856 999")+9978 8856 999
+                    a.header-text(href="tel:+9978 8856 999") +9978 8856 999
                     div.form-inline.float-xs-right.header-padding
                         ul.nav-list.nav.navbar-nav.text-uppercase
                             li.nav-item
@@ -35,13 +36,13 @@ html
                             li.nav-item
                                 a.nav-link-base(href="contact-us.html") contact-us
         div.blog-banner
-            img (src="images/blog-bg-image.jpg" alt="background")
+            img(src="images/blog-bg-image.jpg" alt="background")
         section.content-blog
             div.wrapper
                 section.heading
                     h2.text-xl-raleway.text-uppercase Blog Page
                     h4.text-md-lora Our featured Post
-                div.blog-one row
+                div.blog-one.row
                     div.admin-image.col-md-1
                         img.admin-image(src="images/admin-image.png" width="60" height="60" alt="banner")
                     div.col-md-11
@@ -68,7 +69,7 @@ html
                             div.col-xs-6.col-md-4.text-margin-vertical-lg.header-padding-sm
                                 a.rm-link.float-xs-right(href="#") Read More
             div.blog-two.row
-                div.admin-image.col-md-1.
+                div.admin-image.col-md-1
                     img.admin-image(src="images/admin-image.png" width="60" height="60" alt="banner")
                 div.col-md-11
                     article.main-block
@@ -93,7 +94,7 @@ html
                                             i.fa.fa-google.g-color(aria-hidden="true")
                             div.col-xs-6.col-md-4.text-margin-vertical-lg.header-padding-sm
                                 a.rm-link.float-xs-right(href="#") Read More
-            div.blog-three row
+            div.blog-three.row
                 div.admin-image.col-md-1
                     img.admin-image(src="images/admin-image.png" width="60" height="60" alt="banner")
                 div.col-md-11
@@ -120,7 +121,7 @@ html
                                             i.fa.fa-google.g-color(aria-hidden="true")
                             div.col-xs-6.col-md-4.text-margin-vertical-lg.header-padding-sm
                                 a.rm-link.float-xs-right(href="#") Read More
-        section.pre-footer.
+        section.pre-footer
             div.wrapper.pyramids-layer
                 div.flex.flex-justify-center
                     nav(aria-label="Page navigation")
@@ -142,7 +143,7 @@ html
                         ul.f-social
                             li
                                 button.btn.btn-default.btn-sm.color-bg(type="button")
-                                    a (href="https://facebook.com/groups/ProstirCherkasy" target="_blank")
+                                    a(href="https://facebook.com/groups/ProstirCherkasy" target="_blank")
                                         i.fa.fa-facebook(aria-hidden="true")
                             li
                                 button.btn.btn-default.btn-sm.color-bg(type="button")
@@ -151,12 +152,12 @@ html
                             li
                                 button.btn.btn-default.btn-sm.color-bg(type="button")
                                     a(href="https://twitter.com/costanzaquotes" target="_blank")
-                                        i.fa.fa-twitter
+                                        i.fa.fa-twitter(aria-hidden="true")
                             li
                                 button.btn.btn-default.btn-sm.color-bg(type="button")
                                     a(href="https://linkedin.com" target="_blank")
                                         i.fa.fa-linkedin(aria-hidden="true")
-                    div.nav-container.col-md-3.
+                    div.nav-container.col-md-3
                         h5.footer-header-color.text-uppercase.text-margin-bottom-sm
                         ul.footer-nav-list
                             li

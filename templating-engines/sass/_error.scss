@@ -1,0 +1,27 @@
+.error{
+  min-height: 440px;
+  .error-container{
+    padding: 100px 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3{
+      font: 300 72px "Open Sans";
+      text-transform: uppercase;
+      line-height: 72px;
+    .font-weight-xl{
+      font-weight: 700;
+      color: #36a8ff;
+}
+}
+}
+}
+.text-bg-accent{
+  font: 500 12px/28px "Raleway";
+  text-transform: uppercase;
+  background-color: #ffaf36;
+  margin: 20px -35px;
+  padding: 5px 10px;
+  border-radius: 20px;
+
+}

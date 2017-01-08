@@ -1,0 +1,120 @@
+
+
+@font-face {
+  font-family: "Proxima Nova Regular";
+  src: url("../fonts/PNR.otf");
+}
+$fsize-xxs: 12px;
+$fsize-xs: 13px;
+
+$fsize-sm: 14px;
+$fsize-md: 16px;
+$fsize-lg: 18px;
+$fsize-xl: 30px;
+$fsize-xxl: 60px;
+$fsize-xxxl: 72px;
+
+$fweight-xs: 600;
+$fweight-sm: 700;
+$fweight-md: 800;
+
+.text-line-height-xs{
+  line-height: 24px;
+}
+.text-line-height-sm{
+  line-height: 28px;
+}
+.text-line-height-md{
+  line-height: 30px;
+}
+.text-line-height-lg{
+  line-height: 36px;
+}
+/*-------------------------------------Open Sans---------------------------------------*/
+.text-xs-opensans{
+   font: 700 $fsize-xxs "Open Sans";
+   line-height: 18px;
+ }
+.text-content{
+   font: 400 14px "Open Sans";
+   line-height: 18px;
+ }
+.text-sm-opensans{
+  font: 400 14px "Open Sans";
+  line-height: 18px;
+}
+.text-xl-opensans{
+  font: 700 30px "Open Sans";
+  line-height: 18px;
+}
+.text-xxxl-opensans{
+  font: 300 $fsize-xxxl "Open Sans";
+  line-height: 72px;
+}
+/*-------------------------------------Raleway---------------------------------------*/
+
+.text-xxs-raleway{
+  font: 500 $fsize-xxs "Raleway";
+  color: #1c1c1c;
+  line-height: 28px;
+}
+.text-sm-raleway{
+   font: 400 $fsize-sm "Raleway";
+   color: #1c1c1c;
+   line-height: 28px;
+ }
+.text-sm-raleway-bold{
+  font: 700 $fsize-sm "Raleway";
+  color: #1c1c1c;
+  line-height: 24px;
+}
+.text-md-raleway{
+  font: 700 $fsize-md "Raleway";
+  color: #1c1c1c;
+  line-height: 24px;
+}
+.text-md-raleway-color{
+  font: 700 $fsize-md "Raleway";
+  color: #FFFFFF;
+  line-height: 24px;
+}
+.text-lg-raleway{
+  font: 700 $fsize-lg "Raleway";
+  color: #1c1c1c;
+  line-height: 24px;
+}
+.text-xl-raleway{
+  font: 900 $fsize-xl "Raleway";
+  color: #1c1c1c;
+  line-height: 24px;
+}
+.text-xxl-raleway{
+  font: 700 $fsize-xxl "Raleway";
+  color: #FFFFFF;
+  line-height: 24px;
+}
+
+/*-------------------------------------Lora---------------------------------------*/
+.text-sm-lora{
+   font: italic 800 15px "Lora";
+   color: #1c1c1c;
+   line-height: 28px;
+ }
+.text-sm-lora-color{
+  font: italic 800 15px "Lora";
+  color: #FFFFFF;
+  line-height: 28px;
+}
+.text-md-lora{
+   font: italic 800 $fsize-md "Lora";
+   color: #1c1c1c;
+   line-height: 30px;
+ }
+/*-------------------------------------Proxima nova--------------------------------------*/
+.text-xs-proxima{
+  font: 600 $fsize-xs "Proxima Nova Regular";
+  line-height: 24px;
+}
+
+
+/*-------------------------------------blog---------------------------------------*/

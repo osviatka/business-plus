@@ -1,0 +1,19 @@
+
+
+.admin-image{
+  overflow: hidden;
+  border: 5px solid #fff;
+  border-radius: 130px;
+}
+
+.social{
+  li {
+    display: inline-block;
+  }
+}
+.content-blog{
+  .blog-one, .blog-two, .blog-three{
+    border-bottom: 1px solid rgba(221, 228, 234, 18.15);
+    margin-top: 50px;
+  }
+}

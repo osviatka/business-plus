@@ -1,0 +1,46 @@
+.wrapper-testimonial{
+  padding: 7vh 0 7vh;;
+}
+.testimonial-clients-1, .testimonial-clients-2,.testimonial-clients-3,.testimonial-clients-4{
+  .t-container{
+    position: relative;
+    .layer-container{
+      position: absolute;
+      top: 65px;
+      left: 390px;
+      right: 0;
+      bottom: 0;
+      width: 750px;
+      height: 225px;
+      background: #fff;
+      padding: 20px;
+      border: 1px solid rgba(221, 228, 234, 18.15);
+    }
+  }
+}
+.testimonial-clients-2, .testimonial-clients-4{
+  background-color: #EAEFF3;
+}
+.post-comments{
+  .rm-link{
+    padding: 14px 25px;
+  }
+}
+.quotes{
+  position: relative;
+  margin-top: 35px;
+  &::before{
+    position: absolute;
+    content: "\275D";
+    font-size: 500px;
+    opacity: 0.1;
+    top: 5%;
+    left:75%;
+    z-index:2;
+  }
+
+  &-blue::before{
+    color: #00BAEF;
+  }
+
+}

@@ -1,0 +1,86 @@
+
+
+
+$base-color: #ffffff;
+$accent-color: #ffaf36;
+$heading-color: #1c1c1c;
+$darken-color: #808080;
+$light-color: #F0F0F0;
+$footer-color: #2a2b2c;
+
+
+/* borders
+.border-bottom-line{
+  border-bottom: 1px solid #dde4ea;
+  opacity: 0.15;
+}
+*/
+.base-color{
+  color:#FFFFFF;
+}
+/*-------------------------------------blog---------------------------------------*/
+
+.f-color{
+  border-radius: 50px;
+  border: 15px solid #496FA5;
+  color:#FFFFFF;
+  background-color: #496FA5;
+  margin: 5px 0 15px 10px;
+}
+.t-color{
+  border-radius: 50px;
+  border: 15px solid #00BAEF;
+  color:#FFFFFF;
+  background-color: #00BAEF;
+  margin: 5px 0 15px 10px;
+}
+.g-color{
+  border-radius: 50px;
+  border: 15px solid #EB4125;
+  color:#FFFFFF;
+  background-color: #EB4125;
+  margin: 5px 0 15px 10px;
+}
+
+/*-------------------------------------contact-us---------------------------------------*/
+
+.text-color-black{
+  color: $heading-color;
+}
+.text-color-accent{
+  color: $accent-color;
+}
+/*-------------------------------------about us---------------------------------------*/
+
+
+/*-------------------------------------careeers---------------------------------------*/
+.header-text{
+  color: #ffffff;
+  padding-top: 5px;
+}
+.about-views{
+  background-color:#EAEFF3;
+}
+
+.nav-link-base{
+  color: #ffffff;
+}
+.sr-only{
+  $accent-color: #ffaf36;
+}
+
+
+.s-color{
+  border: 15px solid #FFAF36;
+  color:black;
+  background-color: #FFAF36;
+  margin: -46px -445px 15px -20px
+}
+
+.bg-accent-color{
+  background: gray;
+}
+.bg-accent-light-color{
+  background-color: #EAEFF3;
+}
+
